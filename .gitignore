@@ -1,0 +1,42 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*credentials*
+*secrets*
+auth.json
+token*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+
+# Node and build output
+node_modules/
+dist/
+build/
+
+# Model weights and caches
+models/
+model-cache/
+*.gguf
+*.safetensors
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Operating system files
+.DS_Store
+Thumbs.db
