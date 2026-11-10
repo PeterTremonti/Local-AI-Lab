@@ -161,3 +161,9 @@ Never commit:
 - Personal credentials.
 - Model weights.
 - Private configuration files containing secrets.
+
+## Operating Guide
+
+See [LOCAL_AI_LAB_WORKFLOW.md](LOCAL_AI_LAB_WORKFLOW.md) for the
+project's operating rules, workstation startup instructions,
+Claude Code restrictions, Git practices, and experiment procedures.
