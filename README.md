@@ -180,3 +180,8 @@ See [Historical Hermes Model Comparison](experiments/2026-08-historical-hermes-m
 
 See [Gemma4 26B Initial Hardware Baseline](experiments/2026-11-gemma4-26b-baseline.md)
 for the November 11, 2026 direct-inference measurements.
+
+## Coding Agent Benchmarks
+
+See [Claude Agent Benchmark V1 Results](benchmarks/claude-agent-v1/RESULTS.md)
+for the Gemma4 26B source-investigation and authorized-edit evaluation.
