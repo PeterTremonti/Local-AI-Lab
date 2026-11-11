@@ -185,3 +185,7 @@ for the November 11, 2026 direct-inference measurements.
 
 See [Claude Agent Benchmark V1 Results](benchmarks/claude-agent-v1/RESULTS.md)
 for the Gemma4 26B source-investigation and authorized-edit evaluation.
+
+## Ornith-1.5 Evaluation
+
+See [Direct inference and long-context baseline](experiments/2026-11-ornith-1.5-9b-baseline.md) and [Claude Code agent benchmark](benchmarks/ornith-agent-v1/RESULTS.md).
