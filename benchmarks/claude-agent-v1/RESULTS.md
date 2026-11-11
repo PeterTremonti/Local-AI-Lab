@@ -91,3 +91,27 @@ completion times. Both should remain separate measurements.
 
 Do not describe the implementation as test-passing until tests
 have actually been executed.
+
+## 6. Subsequent Independent Test Execution
+
+Pytest was installed in a dedicated virtual environment outside the repository:
+
+- Python: 3.10.12
+- Pytest: 9.2.0
+- Environment: ~/.venvs/local-ai-lab-pytest
+
+The existing tests were executed independently of Claude Code against its corrected implementation.
+
+Command: PYTHONDONTWRITEBYTECODE=1 ~/.venvs/local-ai-lab-pytest/bin/python -m pytest -q -p no:cacheprovider
+
+**Result: 2 passed in 0.00 seconds.**
+
+Both checkout tests passed:
+- 10% discount followed by 10% tax: expected 19.80.
+- Zero discount followed by 10% tax: expected 22.00.
+
+The initial report correctly stated that tests had not yet been run. This section records the subsequent independent verification.
+
+The result establishes that the implementation passes these two tests. It does not establish comprehensive correctness for all possible discount inputs.
+
+The pytest environment is retained outside the repository for future tests.
