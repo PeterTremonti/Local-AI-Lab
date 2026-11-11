@@ -167,3 +167,11 @@ Never commit:
 See [LOCAL_AI_LAB_WORKFLOW.md](LOCAL_AI_LAB_WORKFLOW.md) for the
 project's operating rules, workstation startup instructions,
 Claude Code restrictions, Git practices, and experiment procedures.
+
+## Historical Model Experiments
+
+The August 2026 Hermes model comparisons were reconstructed from
+archived experiment conversations and handoffs. These are historical
+reported results, not controlled benchmarks on the current workstation.
+
+See [Historical Hermes Model Comparison](experiments/2026-08-historical-hermes-model-comparison.md).
