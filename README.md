@@ -189,3 +189,7 @@ for the Gemma4 26B source-investigation and authorized-edit evaluation.
 ## Ornith-1.5 Evaluation
 
 See [Direct inference and long-context baseline](experiments/2026-11-ornith-1.5-9b-baseline.md) and [Claude Code agent benchmark](benchmarks/ornith-agent-v1/RESULTS.md).
+
+## Machine Builder Architecture Review
+
+See [Ornith-1.5 Machine Builder Architecture Review](experiments/2026-11-ornith-machine-builder-review.md) for the read-only architectural evaluation, follow-up source tracing, corrected findings, limitations, and recommended verification items.
