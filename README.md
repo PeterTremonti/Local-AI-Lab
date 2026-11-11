@@ -175,3 +175,8 @@ archived experiment conversations and handoffs. These are historical
 reported results, not controlled benchmarks on the current workstation.
 
 See [Historical Hermes Model Comparison](experiments/2026-08-historical-hermes-model-comparison.md).
+
+## Current Hardware Benchmarks
+
+See [Gemma4 26B Initial Hardware Baseline](experiments/2026-11-gemma4-26b-baseline.md)
+for the November 11, 2026 direct-inference measurements.
